@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body, .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-image: url("../public/back.jpg");
+  background-size: contain;
+  background-size: 17px 17px;
+  flex-direction: column;
+  font-family: cursive;
+  overflow: scroll;
+}
+
+.title {
+  height: 50px;
+  width: 500px;
+  border-radius: 20px;
+  background-image: linear-gradient(90deg, aqua,  #123456);
+  color:snow;
+}
+
+.container {
+  padding: 10px 10px 30px 30px;
+  margin-top: 30px;
+  width: 500px;
+  border-radius: 15px;
+  background-image: linear-gradient(90deg, #123456, aqua);
+  position: relative;
+}
+
+.add, .clear {
+  position: absolute;
+  border: 0.1px solid #123456;
+  font-family: cursive;
+  border-radius: 5px;
+  bottom: 20px;
+  font-weight: 600;
+}
+
+.add {
+  right: 5%;
+}
+
+.clear {
+  right: 15%;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 20px;
+  font-family: cursive;
+  outline: none;
+  color:aliceblue;
+}
+
+button:hover{
+  cursor: pointer;
+  transform: scale(1.12);
+}
+
+button:active {
+  transform: scale(1.3);
+}
+
+li {
+  margin-bottom: 40px;
+  font-size: 17px;
+  font-weight: 600;
+  color:aliceblue;
+}
+
+.works {
+  margin-top: 20px;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete {
+  margin-right: 15%;
+  font-size: 17px;
+  font-weight: 600;
+  color: red;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+.delete:active {
+  transform: scale(1.1);
+}
+
